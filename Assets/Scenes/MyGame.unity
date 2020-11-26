@@ -6722,6 +6722,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1594231905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &410453582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1305952025177006, guid: 7bd8a99d77d246b41b47d6f0958d6e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 59911833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &410453584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410453582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0175273, y: 1, z: 1.912478}
+  m_Center: {x: -0.14059237, y: 0, z: 1.0359346}
 --- !u!4 &417133308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1810836374240881437, guid: 962996e23ffcbc44d92fb20cd03940cd,
@@ -30646,6 +30665,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 612746079}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1893750837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895141887827254, guid: 7bd8a99d77d246b41b47d6f0958d6e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 59911833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1893750841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893750837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.063358, y: 0.922169, z: 1.2197834}
+  m_Center: {x: -3.7246525, y: -0.6505257, z: -0.05100559}
 --- !u!4 &1898435316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1810836374240881437, guid: 962996e23ffcbc44d92fb20cd03940cd,
@@ -34656,6 +34694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2767204685841361243, guid: d47c1cdc904cd5640aa99d760e3dfb64,
+        type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 599208273920732725, guid: d47c1cdc904cd5640aa99d760e3dfb64, type: 3}
